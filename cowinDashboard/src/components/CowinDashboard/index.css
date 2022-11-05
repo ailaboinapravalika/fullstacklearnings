@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.cowin-dashboard-bg {
+  background-color: #161625;
+  min-height: 100vh;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.title-bg {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+.logo {
+  width: 30px;
+  margin-right: 15px;
+}
+.title {
+  color: #2cc6c6;
+  font-size: 30px;
+  font-weight: 500;
+}
+.cowin-india-heading {
+  color: #cbd5e1;
+  margin-top: 4px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+.cowin-charts-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.bg-charts-all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.failure-view-bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  max-width: 560px;
+}
+.failure-img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.failure-text {
+  color: #ffffff;
+  font-family: 'bree serif';
+  font-size: 32px;
+}

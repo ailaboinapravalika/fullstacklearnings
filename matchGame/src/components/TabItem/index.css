@@ -1,0 +1,14 @@
+.fruit-btn {
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  border: 0px;
+}
+.selected-btn {
+  border-bottom: 3px solid #fec653;
+}
+.list-tab-item {
+  list-style: none;
+  padding: 0px;
+}

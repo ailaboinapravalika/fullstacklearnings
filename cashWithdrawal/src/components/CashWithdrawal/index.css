@@ -1,0 +1,77 @@
+/* Write your CSS here */
+.bg-cash-withdraw {
+  min-height: 100vh;
+  background-color: #d4d2db;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  font-family: 'Roboto';
+}
+.main-card {
+  background-color: #150b3e;
+  border-radius: 25px;
+  min-height: 350px;
+  width: 350px;
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+}
+.name-card {
+  display: flex;
+  align-items: center;
+}
+.profile-icon {
+  width: 40px;
+  height: 40px;
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 16px;
+  margin-right: 12px;
+  padding-top: 10px;
+}
+.name {
+  font-size: 16px;
+  color: #c4c4c4;
+}
+.balance-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.balance-title {
+  color: #585076;
+  font-size: 16px;
+  padding-top: 16px;
+}
+.balance {
+  color: #c4c4c4;
+  font-size: 24px;
+}
+.currency {
+  color: #585076;
+  font-size: 11px;
+}
+.bg-list-denominations {
+  display: flex;
+  flex-direction: column;
+}
+.withdraw-title {
+  color: #c4c4c4;
+  font-size: 20px;
+  font-weight: 500;
+}
+.choose-title {
+  color: #585076;
+  font-size: 16px;
+}
+.denomination-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0px;
+  margin-bottom: 0px;
+}

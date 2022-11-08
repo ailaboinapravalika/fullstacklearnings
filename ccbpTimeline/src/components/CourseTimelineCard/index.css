@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.course-card-bg {
+  display: flex;
+  flex-direction: column;
+}
+.course-title-bg {
+  display: flex;
+  align-items: center;
+}
+.title {
+  color: #1e293b;
+  font-size: 26px;
+  font-weight: 700;
+}
+.clock-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+  margin-right: 5px;
+}
+.duration {
+  color: #171f46;
+  font-size: 16px;
+  font-weight: 600;
+}
+.course-description {
+  color: #1e293b;
+  font-size: 18px;
+}
+.tags-list-bg {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+.tag {
+  color: #1e293b;
+  font-size: 16;
+  font-weight: bold;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  list-style: none;
+  background-color: #ebf1fa;
+  border-radius: 6px;
+}

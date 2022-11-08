@@ -1,0 +1,160 @@
+/* Write your CSS here */
+
+.bg-digi-timer {
+  min-height: 100vh;
+  background-image: linear-gradient(#ffffff, #cffcf1);
+  padding-top: 76px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto';
+  box-shadow: 0px 4px 16px 0px;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 88vw;
+  max-width: 900px;
+}
+.digi-heading {
+  font-size: 36px;
+  font-weight: 600;
+  color: #0f172a;
+}
+.timer-display-container {
+  background-image: url(https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png);
+  background-position: center;
+  background-size: cover;
+  width: 60vw;
+  height: 36vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circular-container-timer {
+  width: 140px;
+  height: 140px;
+  background-color: #ffffff;
+  border-radius: 70px;
+  border: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.running-time {
+  font-size: 30px;
+  font-weight: 600;
+  color: #00d9f5;
+  margin-bottom: 0px;
+}
+.timer-status {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1e293b;
+  margin-top: 0px;
+}
+.control-panel-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.start-reset-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.start-btn {
+  width: 80px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  margin-right: 40px;
+  border: 0px;
+}
+.start-img {
+  height: 24px;
+  width: 24px;
+  margin-right: 4px;
+}
+.start-para {
+  font-size: 22px;
+  color: #1e293b;
+  font-weight: 600;
+}
+.set-timer-para {
+  font-size: 20px;
+  color: #0f172a;
+  font-weight: 500;
+  text-align: center;
+}
+.change-limit-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.plus-btn {
+  border: 0px;
+  background-color: transparent;
+  font-size: 54px;
+  font-weight: 600;
+  color: #0f172a;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.updated-time {
+  background-image: linear-gradient(to right, #40f59a, #00d9f5);
+  width: 100px;
+  height: 64px;
+  color: #0f172a;
+  border-radius: 12px;
+  text-align: center;
+  padding: 14px;
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .bg-digi-timer {
+    background-image: linear-gradient(90deg, #ffffff, #cffcf1 90%);
+    padding-top: 80px;
+  }
+  .digi-heading {
+    font-size: 48px;
+  }
+  .timer-display-container {
+    width: 68vw;
+    height: 66vh;
+  }
+  .circular-container-timer {
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+  }
+  .interactive-timer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+  }
+  .running-time {
+    font-size: 44px;
+  }
+  .timer-status {
+    font-size: 24px;
+  }
+  .updated-time {
+    font-size: 40px;
+    height: 80px;
+  }
+  .set-timer-para {
+    font-size: 18px;
+  }
+}

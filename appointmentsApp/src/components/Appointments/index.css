@@ -1,0 +1,134 @@
+/* Write your CSS here */
+
+.appointments-bg {
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.appointments-main-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding-top: 46px;
+  padding-left: 18px;
+  padding-right: 18px;
+  display: flex;
+  flex-direction: column;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.appointments-title {
+  color: #171f46;
+  font-size: 24px;
+  font-weight: 600;
+}
+.appointments-form {
+  display: flex;
+  flex-direction: column;
+}
+.label-title {
+  color: #b5b7c4;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.title-input {
+  padding-left: 16px;
+  border-radius: 6px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #171f46;
+  font-size: 14px;
+  outline: none;
+  border: 1px solid #171f46;
+  margin-bottom: 20px;
+}
+
+.add-btn {
+  width: 60px;
+  background-color: #8b5cf6;
+  padding: 10px;
+  border-radius: 9px;
+  cursor: pointer;
+  border: 0px;
+  color: #ffffff;
+  font-size: 13px;
+  outline: none;
+  margin-bottom: 16px;
+}
+.line {
+  border: 1px solid #b5b7c4;
+  width: 100%;
+}
+.list-appointments {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+}
+.appointments-list-heading {
+  color: #171f46;
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 38px;
+}
+.appointments-list-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.starred {
+  background-color: transparent;
+  color: #9897f0;
+  font-size: 11px;
+  border: 1px solid #9897f0;
+  border-radius: 10px;
+  width: 70px;
+  height: 25px;
+  padding-right: 4px;
+  padding-left: 6px;
+}
+.img-appointments-box {
+  display: none;
+}
+.img-appointments {
+  width: 100%;
+  height: 100%;
+}
+@media (min-width: 768px) {
+  .appointments-main-card {
+    padding: 60px;
+  }
+  .title-input {
+    width: 270px;
+  }
+  .img-appointments-box {
+    display: flex;
+    width: 400px;
+    max-height: 250px;
+    min-height: 180px;
+    min-width: 260px;
+    align-self: flex-end;
+    margin-bottom: 20px;
+    margin-left: 30px;
+  }
+  .appointments-main-card {
+    max-width: 86vw;
+  }
+  .form-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .list-appointments {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}

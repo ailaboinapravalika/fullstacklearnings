@@ -21,7 +21,7 @@ class CowinDashboard extends Component {
   }
 
   getCowinIndiaData = async () => {
-    const vaccinationDataApiUrl = `https://apis.ccbp.in/covid-vaccination-data`
+    const vaccinationDataApiUrl = 'https://apis.ccbp.in/covid-vaccination-data'
     const options = {
       method: 'GET',
     }

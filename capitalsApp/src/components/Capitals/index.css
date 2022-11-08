@@ -1,0 +1,55 @@
+/* Write your CSS here */
+
+.bg-countries-capitals {
+  height: 100vh;
+  background-color: #93c5fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.main-card {
+  background-color: #f8fafc;
+  border-radius: 20px;
+  padding: 35px;
+  width: 360px;
+  height: 300px;
+}
+.heading {
+  color: #1e293b;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+.choose-country-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.capital-drop-down {
+  margin-right: 14px;
+  color: #000000;
+  border: 1px solid #cbd2d9;
+  padding: 6px;
+  font-weight: 600;
+  width: 170px;
+  height: 40px;
+  font-size: 16px;
+  outline: none;
+}
+.choose-label {
+  color: #000000;
+  font-size: 12px;
+  font-weight: 500;
+}
+.country {
+  font-size: 18px;
+  font-weight: 500;
+  color: #1e293b;
+}
+@media (min-width: 768px) {
+  .main-card {
+    padding: 50px;
+    width: 600px;
+    height: 340px;
+  }
+}

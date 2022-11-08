@@ -1,0 +1,68 @@
+/* Write your code here. */
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ffffff33;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  flex-wrap: wrap;
+}
+.nav-title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 120px;
+}
+.logo-img {
+  width: 26px;
+  height: 25px;
+}
+.emoji-game-title {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  padding-right: 10px;
+}
+.nav-score-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  min-width: 152px;
+  flex-wrap: wrap;
+}
+.score {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  padding-right: 20px;
+}
+
+@media (min-width: 768px) {
+  .nav-bar {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .nav-title-container {
+    min-width: 150px;
+    width: 200px;
+  }
+  .nav-score-container {
+    min-width: 220px;
+    width: 300px;
+    justify-content: space-evenly;
+  }
+  .logo-img {
+    width: 36px;
+    height: 38px;
+  }
+  .emoji-game-title {
+    font-size: 22px;
+  }
+  .score {
+    font-size: 20px;
+  }
+}

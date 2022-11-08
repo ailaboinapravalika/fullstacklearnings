@@ -1,0 +1,90 @@
+/* Write your CSS code here */
+.nav-bar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header-bg {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.logo-logout-box {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.logo-img {
+  width: 110px;
+}
+.logout-btn {
+  list-style: none;
+  width: 34px;
+  height: 26px;
+}
+.logout-img {
+  width: 100%;
+  height: 100%;
+}
+.nav-options-bg {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #e6f6ff;
+}
+.lg-nav-options-bg {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .nav-bar {
+    padding: 14px;
+  }
+  .header-bg {
+    width: 78%;
+    align-self: center;
+  }
+  .logo-img {
+    width: 210px;
+    height: 54px;
+  }
+  .logout-btn {
+    display: none;
+  }
+  .nav-options-bg {
+    display: none;
+  }
+  .lg-nav-options-bg {
+    display: flex;
+    align-items: center;
+  }
+  .lg-nav-options-box {
+    display: flex;
+    align-items: center;
+  }
+  .nav-option-lg {
+    font-size: 20px;
+    color: #475569;
+    margin-right: 30px;
+    font-weight: 600;
+    list-style: none;
+  }
+  .lg-logout-btn {
+    background-color: #0b69ff;
+    border: 0px;
+    color: #ffffff;
+    width: 110px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 6px;
+  }
+}

@@ -1,0 +1,86 @@
+/* Write your code here. */
+.win-lose-container {
+  background-color: #ffffff33;
+  border: 3px solid #ffffff33;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 25px;
+  width: 88vw;
+  height: 75vh;
+  max-width: 850px;
+  max-height: 900px;
+  font-family: 'roboto';
+}
+.win-lose-img {
+  min-width: 140px;
+  min-height: 210px;
+}
+.wish-console-text {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 15px;
+}
+.score-type {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 6px;
+}
+.final-score {
+  color: #6a59ff;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0px;
+}
+.play-button {
+  width: 110px;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 25px;
+  background-color: #ffce27;
+  color: #3d3d3d;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+  margin: 10px;
+}
+.win-lose-img-lg {
+  display: none;
+}
+.score-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .win-lose-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .score-card {
+    margin-right: 15px;
+  }
+  .win-lose-img-lg {
+    display: flex;
+    width: 340px;
+    height: 430px;
+  }
+  .win-lose-img {
+    display: none;
+  }
+  .wish-console-text {
+    margin-top: 0px;
+    font-size: 56px;
+    font-weight: 700;
+  }
+  .score-type {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0px;
+  }
+}

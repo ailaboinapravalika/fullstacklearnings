@@ -1,0 +1,106 @@
+/* Write your CSS code here */
+.login-form-bg {
+  padding: 26px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: 'roboto';
+  min-height: 100vh;
+}
+.web-logo-bg {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.website-logo {
+  width: 60%;
+}
+.login-img-bg {
+  display: flex;
+  width: 90%;
+  margin-bottom: 60px;
+}
+.login-img {
+  width: 100%;
+}
+.form-bg {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.username-label {
+  color: #475569;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.input-username {
+  color: #64748b;
+  font-size: 20px;
+  font-weight: 600;
+  width: 85%;
+  max-width: 450px;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border: 0px;
+  background-color: #e2e8f0;
+  border-radius: 16px;
+  outline: none;
+}
+.login-btn {
+  width: 90%;
+  max-width: 380px;
+  padding: 16px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #0b69ff;
+  border-radius: 5px;
+  border: 0px;
+  font-size: 13px;
+  cursor: pointer;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .login-form-bg {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .web-logo-bg-lg {
+    width: 50%;
+    max-width: 200px;
+    margin-bottom: 40px;
+  }
+  .website-logo-lg {
+    width: 100%;
+  }
+  .web-logo-bg {
+    display: none;
+  }
+  .login-img-bg {
+    width: 38%;
+    max-width: 540px;
+    margin-right: 60px;
+  }
+  .form-bg {
+    width: 48%;
+    max-width: 540px;
+  }
+  .login-btn {
+    font-size: 16px;
+  }
+}
+.error {
+  font-size: 16px;
+  color: #ff0b37;
+}

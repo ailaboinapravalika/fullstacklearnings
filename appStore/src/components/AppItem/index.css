@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.app-box {
+  width: 140px;
+  height: 150px;
+  list-style: none;
+  background-color: #fff1eb;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.app-img {
+  width: 60px;
+  height: 60px;
+}
+.app-name {
+  font-size: 13px;
+  font-weight: 400;
+  color: #1e293b;
+  margin-bottom: 0px;
+}
+@media (min-width: 768px) {
+  .app-box {
+    width: 190px;
+    height: 190px;
+  }
+  .app-img {
+    width: 80px;
+    height: 80px;
+  }
+  .app-name {
+    font-size: 18px;
+  }
+}

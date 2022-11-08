@@ -1,0 +1,86 @@
+/* Write your CSS here */
+.latest-matches-container {
+  background-color: #0f172a;
+  width: 100%;
+  max-width: 930px;
+  border-radius: 14px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  color: #ffffff;
+  font-family: 'Bree Serif';
+}
+.match-data-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 30%;
+  margin-left: 30px;
+}
+.opp-team-name {
+  font-size: 40px;
+  font-weight: 500;
+}
+.match-date {
+  font-size: 30px;
+  font-weight: 400;
+}
+.match-venue {
+  font-size: 20px;
+}
+.opp-team-img {
+  width: 27%;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.match-metrics-box {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  width: 30%;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.hr-line {
+  display: none;
+}
+.metric-name {
+  font-size: 26px;
+  font-weight: 500;
+}
+@media screen and (max-width: 768px) {
+  .latest-matches-container {
+    flex-wrap: wrap;
+  }
+  .match-data-box {
+    width: 55%;
+  }
+  .opp-team-img {
+    width: 22%;
+    margin-left: 10px;
+    margin-right: auto;
+  }
+  .opp-team-name {
+    font-size: 22px;
+  }
+  .match-date {
+    font-size: 16px;
+  }
+  .match-venue {
+    font-size: 13px;
+  }
+
+  .match-metrics-box {
+    width: 100%;
+    text-align: left;
+    align-self: flex-start;
+  }
+  .hr-line {
+    display: flex;
+    width: 100%;
+    border: 2px solid #475569;
+  }
+}

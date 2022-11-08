@@ -1,0 +1,31 @@
+/* Write your CSS code here */
+.main-card-not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 80vw;
+  height: 70vh;
+}
+.not-found-img {
+  width: 50vw;
+  height: 50vw;
+  max-width: 300px;
+  max-height: 300px;
+}
+.not-found-tag {
+  font-size: 34px;
+  font-weight: 600;
+  color: #6d396b;
+}
+
+@media (min-width: 992px) {
+  .not-found-tag {
+    font-size: 50px;
+  }
+  .not-found-img {
+    width: 380px;
+    height: 380px;
+  }
+}

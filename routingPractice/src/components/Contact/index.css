@@ -1,0 +1,28 @@
+/* Write your CSS code here */
+.main-card-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  height: 70vh;
+  align-self: center;
+}
+.contact-tag {
+  font-size: 34px;
+  font-weight: 600;
+  color: #6d396b;
+}
+.contact-img {
+  width: 200px;
+  height: 200px;
+}
+@media (min-width: 992px) {
+  .contact-tag {
+    font-size: 50px;
+  }
+  .contact-img {
+    width: 250px;
+    height: 250px;
+  }
+}

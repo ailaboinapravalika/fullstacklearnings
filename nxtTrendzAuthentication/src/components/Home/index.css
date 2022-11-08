@@ -1,0 +1,87 @@
+/* Write your CSS code here */
+.home-bg {
+  background-color: #e6f6ff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'roboto';
+  width: 100%;
+}
+.heading-home {
+  color: #1e293b;
+  font-size: 34px;
+  font-weight: 600;
+  text-align: center;
+}
+.home-img {
+  width: 80%;
+  max-width: 330px;
+}
+.home-description {
+  color: #475569;
+  font-size: 15px;
+  background-color: #e2e8f0;
+  text-align: center;
+  line-height: 30px;
+}
+.shop-nw {
+  width: 80%;
+  padding: 12px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #0b69ff;
+  border-radius: 5px;
+  border: 0px;
+  font-size: 13px;
+  cursor: pointer;
+  outline: none;
+}
+.lg-home-img {
+  display: none;
+}
+.home-text-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 85%;
+}
+@media screen and (min-width: 768px) {
+  .home-bg {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .home-text-card {
+    justify-content: center;
+    align-items: flex-start;
+    width: 48%;
+    max-width: 540px;
+  }
+  .home-img {
+    display: none;
+  }
+  .heading-home {
+    font-size: 44px;
+    text-align: left;
+  }
+  .home-description {
+    font-size: 20px;
+    text-align: left;
+  }
+  .shop-nw {
+    font-size: 18px;
+  }
+  .img-bg {
+    width: 48%;
+    max-width: 540px;
+    margin-left: 16px;
+  }
+  .lg-home-img {
+    display: flex;
+    width: 100%;
+  }
+}

@@ -1,0 +1,114 @@
+/* Write your CSS here */
+
+.bg-comments {
+  padding-top: 40px;
+  padding-bottom: 50px;
+  min-height: 100vh;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.comments-title {
+  color: #1e293b;
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+}
+.comments-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-line {
+  color: #475569;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.name {
+  border: 1px solid #cbd2d9;
+  color: #1e293b;
+  font-size: 16px;
+  border-radius: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  margin-bottom: 20px;
+  font-family: 'Roboto';
+}
+.add-btn {
+  background-color: #0284c7;
+  border-radius: 6px;
+  border: 0px;
+  width: 150px;
+  height: 40px;
+  padding: 10px;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+.img-box-small {
+  display: flex;
+  width: 280px;
+  height: 210px;
+}
+.comments-img {
+  width: 100%;
+  height: 100%;
+}
+.line-seperator {
+  border: 1px solid #94a3b8;
+  margin-top: 30px;
+  width: 278px;
+}
+.comments {
+  font-size: 14px;
+  color: #334155;
+}
+.comments-box {
+  align-self: flex-start;
+  padding: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.count {
+  background-color: #0284c7;
+  border-radius: 5px;
+  width: 25px;
+  height: 25px;
+  font-size: 14px;
+  padding-left: 8px;
+  padding-top: 4px;
+  color: #ffffff;
+  margin-right: 6px;
+}
+.list-comments {
+  padding: 0px;
+}
+@media (min-width: 768px) {
+  .main-card-comments {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    width: 720px;
+  }
+  .img-box-small {
+    width: 380px;
+    height: 300px;
+    margin-left: 40px;
+    order: 2;
+  }
+  .line-seperator {
+    width: 720px;
+  }
+}

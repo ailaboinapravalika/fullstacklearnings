@@ -1,0 +1,74 @@
+/* Write your CSS here */
+.bg-toss-coin {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Roboto';
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.toss-coin-main-card {
+  width: 80vw;
+  max-width: 90vw;
+  min-height: 80vh;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+.toss-coin-heading {
+  color: #a35200;
+  font-size: 33px;
+  font-weight: 600;
+}
+.toss-coin-sub-heading {
+  color: #334155;
+  font-size: 22px;
+  font-weight: 500;
+}
+.heads-tails-img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+.toss-button {
+  background-color: #f9d423;
+  color: #a35200;
+  border-radius: 6px;
+  width: 80px;
+  height: 30px;
+  padding: 5px;
+  font-size: 12px;
+  border: 0px;
+}
+.result-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.result {
+  color: #475569;
+  font-size: 18px;
+  font-weight: 500;
+}
+@media (min-width: 768px) {
+  .heads-tails-img {
+    width: 310px;
+    height: 310px;
+  }
+  .toss-coin-heading {
+    font-size: 46px;
+  }
+  .result-container {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40vw;
+  }
+}

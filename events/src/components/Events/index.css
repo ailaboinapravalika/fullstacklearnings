@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.events-bg {
+  display: flex;
+  font-family: 'roboto';
+  min-height: 100vh;
+}
+.event-cards-container {
+  width: 60%;
+  min-height: 100%;
+  background-color: #3a4b63;
+  padding-top: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 70px;
+}
+.events-heading {
+  color: #f8fafc;
+  font-size: 44px;
+  font-weight: 700;
+}
+.event-status-bg {
+  width: 40%;
+  height: 100vh;
+  padding: 50px;
+  border: 2px solid pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-status {
+  color: black;
+  font-size: 30px;
+}
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+  padding: 0px;
+}

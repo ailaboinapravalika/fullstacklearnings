@@ -1,0 +1,54 @@
+/* Write your CSS code here */
+.nav-bar-bg {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  align-items: center;
+}
+.logo-title-container {
+  display: flex;
+  align-items: center;
+}
+.wave-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.page-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #12022f;
+}
+.nav-options-container {
+  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 52vw;
+  max-width: 246px;
+  padding-left: 10px;
+}
+.list-remove {
+  list-style: none;
+}
+
+.nav-option {
+  color: #12022f;
+  font-weight: 700;
+  font-size: 22px;
+  text-decoration: none;
+}
+@media (min-width: 992px) {
+  .nav-bar-bg {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .nav-options-container {
+    max-width: 280px;
+  }
+}

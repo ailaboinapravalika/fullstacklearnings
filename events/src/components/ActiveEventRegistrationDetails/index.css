@@ -1,0 +1,45 @@
+/* Write your CSS here */
+
+.initial-text {
+  color: #64748b;
+  font-size: 22px;
+  font-weight: 500;
+}
+.yet-to-register {
+  width: 340px;
+  height: 350px;
+}
+.yet-to-text {
+  font-size: 20px;
+  line-height: 30px;
+  color: #64748b;
+  font-size: 200;
+}
+.register-btn {
+  background-color: #0967d2;
+  padding: 20px;
+  width: 90%;
+  border: 0px;
+  border-radius: 15px;
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 50px;
+}
+.registered-img {
+  width: 90px;
+  height: 90px;
+}
+.registered {
+  font-size: 24px;
+  color: #323f4b;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+.closed-img {
+  width: 260px;
+  height: 280px;
+}
+.closed-text {
+  color: #475569;
+  font-size: 18px;
+}

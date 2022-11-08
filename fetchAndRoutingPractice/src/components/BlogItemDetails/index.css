@@ -1,0 +1,45 @@
+/* Write your CSS code here */
+.main-blog-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'roboto';
+}
+.blog-details-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: 70%;
+  max-width: 900px;
+}
+.blog-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #000000;
+}
+.blog-author-box {
+  display: flex;
+  align-items: center;
+}
+.blog-author-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+.blog-author {
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000;
+}
+.blog-img-box {
+  margin-top: 0px;
+}
+.blog-img {
+  width: 100%;
+  border-radius: 10px;
+}
+.blog-content {
+  font-size: 20px;
+  color: #2f4f4f;
+}

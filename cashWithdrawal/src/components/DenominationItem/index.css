@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.btn {
+  width: 133px;
+  height: 32px;
+  background-color: #382f5a;
+  border: 1px solid #c4c4c4;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 3px;
+  color: #d4d2db;
+  margin-bottom: 14px;
+}
+
+.list-bullet {
+  list-style: none;
+}

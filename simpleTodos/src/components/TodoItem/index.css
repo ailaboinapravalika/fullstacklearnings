@@ -1,0 +1,18 @@
+/* Write your CSS here */
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  font-size: 14px;
+  color: #000000;
+}
+.btn {
+  color: #ff0b37;
+  background-color: #ffffff;
+  border: 1px solid #ff0b37;
+  border-radius: 5px;
+  padding: 12px;
+  font-size: 13px;
+}

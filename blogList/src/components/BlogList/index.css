@@ -1,0 +1,9 @@
+/* Write your CSS code here */
+.blog-list-container {
+  display: flex;
+  flex-direction: column;
+  width: 94%;
+  max-width: 900px;
+  padding-left: 0px;
+  margin-top: 0px;
+}

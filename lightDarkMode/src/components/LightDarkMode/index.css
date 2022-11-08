@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.bg-container {
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+#card {
+  border-radius: 13px;
+  padding: 30px;
+  text-align: center;
+}
+.dark {
+  color: #ffffff;
+  background-color: #000000;
+}
+.light {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
+button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+}

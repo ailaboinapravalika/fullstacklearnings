@@ -1,0 +1,10 @@
+/* Write your CSS code here */
+.product-card {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-img {
+  width: 10%;
+}

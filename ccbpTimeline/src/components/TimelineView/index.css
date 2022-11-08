@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.my-journey-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'roboto';
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.myjourney {
+  font-size: 24px;
+  color: #1e293b;
+  font-weight: 500;
+}
+.ccbp {
+  font-size: 34px;
+  color: #171f46;
+  font-weight: 500;
+}

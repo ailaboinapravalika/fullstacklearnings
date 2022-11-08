@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.not-found-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+.not-found-img {
+  width: 25%;
+}
+.lost-heading {
+  font-size: 44px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.lost-para {
+  font-size: 16px;
+  font-weight: 500;
+  color: #616e7c;
+}

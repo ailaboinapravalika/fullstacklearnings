@@ -1,0 +1,59 @@
+/* Write your CSS here */
+
+.money-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+.balance-card-container {
+  width: 240px;
+  height: 110px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 18px;
+  padding: 10px;
+}
+.blue-border {
+  border: 1px solid #06b6d4;
+  background-color: #cffafe;
+}
+.green-border {
+  border: 1px solid #84cc16;
+  background-color: #ecfccb;
+}
+.purple-border {
+  border: 1px solid #7c3aed;
+  background-color: #ede9fe;
+}
+
+.balance-img {
+  height: 65px;
+  width: 65px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.balance-title {
+  font-size: 13px;
+  color: #334155;
+  margin-top: 24px;
+  margin-bottom: 10px;
+}
+.balance-amount {
+  font-size: 20px;
+  color: #334155;
+  margin-top: 0px;
+}
+@media (min-width: 768px) {
+  .money-details-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .balance-card-container {
+    margin-right: 20px;
+    width: 200px;
+  }
+}

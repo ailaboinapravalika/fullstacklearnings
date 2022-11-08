@@ -1,0 +1,91 @@
+/* Write your CSS here */
+.header-bg {
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.logo-link {
+  text-decoration: none;
+}
+.logo {
+  height: 40px;
+  width: 40px;
+}
+.trigger-btn {
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+  margin-left: auto;
+  background-color: transparent;
+}
+.hamburger-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.show-btn {
+  display: flex;
+}
+.hide-btn {
+  display: none;
+}
+.modal-content {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 94vw;
+}
+.home-option {
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  list-style: none;
+}
+.option-bg {
+  display: flex;
+  align-items: center;
+}
+.home-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  color: #000000;
+}
+.home-btn-text {
+  color: #000000;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.modal-bg {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff;
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.close-btn {
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+}
+.close-btn-bg {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.close-icon {
+  height: 30px;
+  width: 30px;
+  color: #000000;
+}

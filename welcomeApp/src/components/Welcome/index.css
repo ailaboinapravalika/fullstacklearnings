@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.bg-welcome {
+  background-color: #1e293b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Bree Serif';
+}
+.welcome-text {
+  color: #f0bb03;
+  font-size: 70px;
+  margin-bottom: 0px;
+}
+.greeting {
+  color: #ffffff;
+  font-size: 30px;
+}
+.button {
+  background-color: #ffffff;
+  color: #1e293b;
+  border-radius: 6px;
+  padding-right: 18px;
+  padding-left: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 120px;
+}

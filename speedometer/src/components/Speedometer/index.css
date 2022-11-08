@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  min-height: 100vh;
+  font-family: 'Roboto';
+  background-color: #07080c;
+}
+.title {
+  color: #ffffff;
+  font-size: 50px;
+}
+.img {
+  width: 65vw;
+}
+.speed-text {
+  color: #ffffff;
+  font-size: 36px;
+}
+.guiding-line {
+  color: #cbd5e1;
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  min-width: 16vw;
+}
+.btn {
+  border-radius: 6px;
+  padding: 8px;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+}
+.btn-accelerate {
+  background-color: #0b69ff;
+  color: #ffffff;
+}
+.btn-brake {
+  color: #cbd5e1;
+  background-color: transparent;
+  border: 1px solid #cbd5e1;
+}

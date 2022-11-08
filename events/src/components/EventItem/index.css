@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.event-list-item {
+  width: 46%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.event-img {
+  width: 100%;
+  border-radius: 6px;
+}
+.name {
+  color: #f8fafc;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.location {
+  color: #f8fafc;
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 0px;
+}
+.event-btn {
+  border: 0px;
+  width: 76%;
+  background-color: transparent;
+  padding: 0px;
+  margin: 0px;
+}
+.active {
+  border: 2px solid #2dd4bf;
+}

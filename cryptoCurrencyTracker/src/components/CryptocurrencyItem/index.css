@@ -1,0 +1,42 @@
+/* Write your CSS code here */
+
+.currency-name-container {
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+  width: 50%;
+}
+.currency-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 12px;
+}
+.list-item-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+.coin-name {
+  color: #ffffff;
+  font-size: 20px;
+}
+.currency-usd {
+  color: #ffffff;
+  width: 25%;
+  font-size: 20px;
+  padding-left: 10%;
+}
+@media (max-width: 576px) {
+  .currency-usd {
+    font-size: 13px;
+    padding-left: 4%;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .currency-usd {
+    font-size: 18px;
+    padding-left: 8%;
+  }
+}

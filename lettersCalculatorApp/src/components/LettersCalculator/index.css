@@ -1,0 +1,80 @@
+/* Write your code here. */
+.bg-calculator {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+.main-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+
+  padding-right: 60px;
+  padding-left: 60px;
+  flex-wrap: wrap-reverse;
+}
+.card {
+  min-width: 350px;
+  max-width: 430px;
+}
+.heading {
+  color: #ffffff;
+  font-size: 40px;
+}
+.calci-img {
+  width: 100%;
+  height: 340px;
+}
+.label-enter {
+  font-size: 11px;
+  color: #e4e7eb;
+  margin-bottom: 6px;
+}
+.searchbar {
+  color: #e4e7eb;
+  padding-left: 20px;
+  border-radius: 4px;
+  border: 1px solid #e4e7eb;
+  margin-bottom: 30px;
+  height: 40px;
+  background-color: transparent;
+  outline: none;
+}
+.count-text {
+  background-color: #ffffff;
+  border-radius: 12px;
+  color: #219a6f;
+  font-size: 18px;
+  font-weight: 600;
+  width: 180px;
+  text-align: center;
+  padding: 14px;
+}
+
+.input-card {
+  min-height: 200px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .heading {
+    text-align: center;
+  }
+  .input-card {
+    min-width: 250px;
+  }
+}

@@ -1,0 +1,33 @@
+/* Write your code here. */
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.bg-container {
+  background-color: #0f172a;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.heading {
+  font-family: "roboto";
+  font-size: 64px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.images-box {
+  display: flex;
+}
+.img-style {
+  width: 26vw;
+  height: 55vh;
+}
+
+@media (max-width: 576px) {
+  .heading {
+    font-size: 40px;
+  }
+}

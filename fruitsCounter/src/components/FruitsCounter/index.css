@@ -1,0 +1,68 @@
+/* Write your CSS here */
+.container {
+  background-color: #ffd569;
+  min-height: 100vh;
+  padding-top: 30px;
+  font-family: 'Roboto';
+}
+.fruits-container {
+  background-color: #ffffff;
+  border-radius: 13px;
+  padding: 60px;
+  border-width: 0px;
+  width: 60%;
+  margin: auto;
+}
+.fruit {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.count {
+  color: #ffd569;
+}
+.information {
+  color: black;
+  font-size: 40px;
+  text-align: center;
+}
+.images-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.img {
+  max-width: 25vw;
+  max-height: 36vh;
+  margin-bottom: 40px;
+}
+.btn {
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 12px;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+  border-width: 0px;
+  min-width: 80px;
+  max-width: 120px;
+  align-items: center;
+}
+
+@media (max-width: 576px) {
+  .images-container {
+    flex-direction: column;
+  }
+  .container {
+    padding: 15px;
+  }
+  .fruits-container {
+    width: 90%;
+  }
+}

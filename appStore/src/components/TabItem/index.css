@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.tab-name {
+  color: #7b8794;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  border: 0px;
+  background-color: transparent;
+}
+.tab {
+  list-style: none;
+  width: 110px;
+  text-align: center;
+}
+.line {
+  width: 100%;
+  border: 1px solid #dfe2e5;
+}
+.high-light {
+  color: #2563eb;
+  border-color: #2563eb;
+}

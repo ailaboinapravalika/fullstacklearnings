@@ -1,0 +1,32 @@
+/* Write your CSS here */
+
+/* Write your CSS here */
+.planet-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.planets-heading {
+  color: #05acff;
+  font-size: 40px;
+  font-weight: 500;
+}
+.planet-img {
+  width: 380px;
+  height: 220px;
+  margin-bottom: 30px;
+}
+.name {
+  color: #f1f5f9;
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.about {
+  color: #f8fafc;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  max-width: 900px;
+}

@@ -1,0 +1,31 @@
+/* Write your code here. */
+.bg-faqs {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto';
+  padding-top: 60px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.faqs-main-container {
+  background-color: #f1f5f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90vw;
+  max-width: 830px;
+}
+.faqs-title {
+  color: #cb8805;
+  font-size: 36px;
+  font-weight: 600;
+}
+.faq-list-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

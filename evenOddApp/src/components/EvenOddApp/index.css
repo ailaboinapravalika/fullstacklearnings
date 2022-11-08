@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.bg-even-odd {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.card {
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  width: 370px;
+  height: 370px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.count-data {
+  color: #0f172a;
+  font-size: 30px;
+}
+.guide-line {
+  color: #334155;
+  font-size: 18px;
+}
+button {
+  background-color: #ffffff;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 6px;
+  color: #1e293b;
+  font-size: 13px;
+  border-width: 0px;
+  outline: none;
+}
+.tag-line {
+  color: #334155;
+  font-size: 13px;
+}

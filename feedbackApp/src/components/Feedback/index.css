@@ -1,0 +1,101 @@
+/* Write your CSS code here. */
+.bg-facebook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Roboto';
+  background-image: linear-gradient(#ffeeee, #ffc0bb);
+}
+.facebook-main-card {
+  border-radius: 20px;
+  background-color: #ffebeb;
+  text-align: center;
+  padding: 50px;
+  max-width: 900px;
+  width: 60%;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fb-heading {
+  color: #0f172a;
+  font-size: 28px;
+  font-weight: 500;
+}
+.emotions-box {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0px;
+  width: 70%;
+}
+.response-option {
+  list-style: none;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-right: 20px;
+}
+.response-option-img {
+  height: 90px;
+  width: 90px;
+  margin-bottom: 14px;
+}
+.btn-emotion {
+  color: #1e293b;
+  font-size: 20px;
+}
+.thanks-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.love-img {
+  height: 90px;
+  width: 100px;
+}
+.thanks {
+  color: #0f172a;
+  font-size: 33px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.thanks-reply {
+  color: #1e293b;
+  font-size: 22px;
+  font-weight: 300;
+}
+@media (max-width: 767px) {
+  .bg-facebook {
+    padding: 14px;
+  }
+  .facebook-main-card {
+    padding: 14px;
+    min-height: 560px;
+    width: 90%;
+    max-width: 650px;
+  }
+  .emotions-box {
+    flex-wrap: wrap;
+  }
+  .response-option-img {
+    width: 80px;
+    height: 80px;
+  }
+  .fb-heading {
+    font-size: 26px;
+  }
+  .love-img {
+    width: 60px;
+    height: 60px;
+  }
+  .thanks {
+    font-size: 26px;
+  }
+}

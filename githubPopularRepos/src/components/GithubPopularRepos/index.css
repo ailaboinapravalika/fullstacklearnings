@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.git-hub-bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+.popular-heading {
+  font-size: 52px;
+  color: #0f172a;
+  font-weight: bold;
+  font-family: 'lobster';
+}
+.languages-filter-bg {
+  width: 100%;
+  max-width: 650px;
+}
+.languages-list-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.failure-bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.failure-img {
+  width: 250px;
+}
+.failure-text {
+  font-size: 40px;
+  font-weight: 600;
+  font-style: 'lobster';
+}
+.repo-items-bg {
+  width: 100%;
+}
+.repo-lists-container {
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}

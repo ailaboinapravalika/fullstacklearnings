@@ -6,6 +6,8 @@ import VaccinationByAge from '../VaccinationByAge'
 import VaccinationByGender from '../VaccinationByGender'
 import './index.css'
 
+const vaccinationDataApiUrl = 'https://apis.ccbp.in/covid-vaccination-data'
+
 const apiStatusConstants = {
   inprogress: 'IN_PROGRESS',
   success: 'SUCCESS',
@@ -13,7 +15,7 @@ const apiStatusConstants = {
 }
 
 class CowinDashboard extends Component {
-  state = {apiStatus: '', cowinDetails: {}}
+  state = {apiStatus: '', cowinDetails: []}
 
   componentDidMount() {
     this.getCowinIndiaData()
@@ -21,26 +23,46 @@ class CowinDashboard extends Component {
   }
 
   getCowinIndiaData = async () => {
-    const vaccinationDataApiUrl = 'https://apis.ccbp.in/covid-vaccination-data'
-    const options = {
-      method: 'GET',
-    }
-    const response = await fetch(vaccinationDataApiUrl, options)
+    const response = await fetch(vaccinationDataApiUrl)
     console.log(response)
     if (response.ok === true) {
       const cowinRawData = await response.json()
+
       console.log(cowinRawData)
-      this.setState({
+
+      const last7DaysVaccination = cowinRawData.last_7_days_vaccination.map(
+        item => ({
+          vaccineDate: item.vaccine_date,
+          dose1: item.dose_1,
+          dose2: item.dose_2,
+        }),
+      )
+      const vaccinationByAge = cowinRawData.vaccination_by_age.map(item => ({
+        age: item.age,
+        count: item.count,
+      }))
+      const vaccinationByGender = cowinRawData.vaccination_by_gender.map(
+        item => ({
+          count: item.count,
+          gender: item.gender,
+        }),
+      )
+      const updatedCovidData = [
+        last7DaysVaccination,
+        vaccinationByGender,
+        vaccinationByAge,
+      ]
+      this.setState(prevState => ({
         apiStatus: apiStatusConstants.success,
-        cowinDetails: cowinRawData,
-      })
+        cowinDetails: updatedCovidData,
+      }))
     } else {
-      this.setState({apiStatus: apiStatusConstants.failure})
+      this.setState(prevState => ({apiStatus: apiStatusConstants.failure}))
     }
   }
 
   renderLoader = () => (
-    <div testid="loader">
+    <div>
       <Loader type="ThreeDots" color="#ffffff" height={80} width={80} />
     </div>
   )
@@ -61,13 +83,9 @@ class CowinDashboard extends Component {
 
     return (
       <>
-        <VaccinationCoverage
-          coverageDetails={cowinDetails.last_7_days_vaccination}
-        />
-        <VaccinationByGender
-          genderDetails={cowinDetails.vaccination_by_gender}
-        />
-        <VaccinationByAge ageDetails={cowinDetails.vaccination_by_age} />
+        <VaccinationCoverage coverageDetails={cowinDetails[0]} />
+        <VaccinationByGender genderDetails={cowinDetails[1]} />
+        <VaccinationByAge ageDetails={cowinDetails[2]} />
       </>
     )
   }
@@ -90,7 +108,7 @@ class CowinDashboard extends Component {
 
   render() {
     const {apiStatus} = this.state
-    console.log(apiStatus)
+    console.log('render', apiStatus)
     return (
       <div className="cowin-dashboard-bg">
         <div className="title-bg">

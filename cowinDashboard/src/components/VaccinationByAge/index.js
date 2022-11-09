@@ -1,5 +1,5 @@
 // Write your code here
-import {PieChart, Pie, Legend, Cell, ResponsiveContainer} from 'recharts'
+import {PieChart, Pie, Legend, Cell} from 'recharts'
 import './index.css'
 
 const VaccinationByAge = props => {

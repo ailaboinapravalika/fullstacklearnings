@@ -25,7 +25,7 @@ const VaccinationCoverage = props => {
         }}
       >
         <XAxis
-          dataKey="vaccine_date"
+          dataKey="vaccineDate"
           tick={{
             stroke: '#94a3b8',
             strokeWidth: 1,
@@ -45,14 +45,14 @@ const VaccinationCoverage = props => {
         />
         <Bar
           radius={[10, 10, 0, 0]}
-          dataKey="dose_1"
+          dataKey="dose1"
           name="Dose 1"
           fill="#5a8dee"
           barSize="14%"
         />
         <Bar
           radius={[10, 10, 0, 0]}
-          dataKey="dose_2"
+          dataKey="dose2"
           name="Dose 2"
           fill="#f54394"
           barSize="14%"

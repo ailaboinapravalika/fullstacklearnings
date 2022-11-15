@@ -1,0 +1,98 @@
+.job-card-bg {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 22px;
+  background-color: #272727;
+  width: 100%;
+  margin-bottom: 30px;
+  flex-grow: 1;
+}
+
+.job-item-bg {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #121212;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.visit-bg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.visit-btn {
+  font-size: 20px;
+  font-weight: 400;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: 0px;
+}
+
+.visit-icon {
+  height: 22px;
+  width: 22px;
+
+  margin-left: 14px;
+}
+.visit-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #6366f1;
+}
+.skill {
+  list-style: none;
+  min-width: 200px;
+  width: 240px;
+  margin-bottom: 24px;
+}
+
+.skill-img {
+  width: 56px;
+  margin-right: 20px;
+}
+.skill-name {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+}
+.life {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 24px;
+}
+.life-bg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.start-begin {
+  align-self: flex-start;
+}
+.life-description {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  width: 64%;
+}
+.company-img {
+  width: 34%;
+  height: 100%;
+}
+
+.horizontal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.wrap-contents {
+  flex-wrap: wrap;
+}

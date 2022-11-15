@@ -1,0 +1,27 @@
+.page-not-found-bg {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}
+.page-not-found-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.page-not-found-img {
+  width: 30vw;
+}
+.page-not-found {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+}
+.page-not-found-para {
+  color: #cbd5e1;
+  font-size: 18px;
+  font-weight: 400;
+}

@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.header-bg {
+  background-color: #cbd5e1;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.title-header {
+  color: #475569;
+  font-size: 34px;
+  margin: 12px;
+  text-align: center;
+  font-weight: 600;
+}

@@ -1,0 +1,28 @@
+.line-white {
+  width: 100%;
+  border: 1px solid #b6c5ff;
+}
+
+.type-employment-heading {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+.list-bg-employments {
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.job-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.check-input {
+  margin-right: 12px;
+}
+.label-job-type {
+  color: #ffffff;
+  font-size: 18px;
+}

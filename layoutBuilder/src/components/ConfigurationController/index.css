@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.config-bg {
+  width: 100vw;
+  min-height: 180px;
+  background-color: #475569;
+  padding-top: 30px;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-bottom: 30px;
+
+  font-family: 'roboto';
+}
+
+.layout-hd {
+  font-size: 36px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+.input-check-bg {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.checkbox-style {
+  width: 16px;
+  height: 16px;
+  margin-right: 20px;
+}
+.check-label {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+  .config-bg {
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+  }
+}

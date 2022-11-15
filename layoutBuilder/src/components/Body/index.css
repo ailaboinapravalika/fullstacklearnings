@@ -1,0 +1,98 @@
+/* Write your CSS here */
+.body-bg {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 300px;
+}
+.left-nav-bg {
+  background-color: #e2e8f0;
+  padding: 24px;
+  width: 28%;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-nav-hd {
+  font-size: 16px;
+  color: #475569;
+  font-weight: 500;
+}
+.items-bg {
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.item {
+  font-size: 18px;
+  color: #64748b;
+  font-weight: 400;
+  list-style: none;
+  margin-bottom: 16px;
+}
+.item-text {
+  margin: 0px;
+}
+.context-bg {
+  background-color: #f1f5f9;
+  min-height: 300px;
+  padding: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 44%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.ad-box {
+  border: 1px solid #64748b;
+  min-width: 90px;
+  margin-bottom: 14px;
+  margin-top: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #64748b;
+  list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+  .left-nav-bg {
+    width: 100%;
+    min-height: 200px;
+    margin-bottom: 10px;
+  }
+  .left-nav-hd {
+    text-align: center;
+  }
+  .item {
+    margin-right: 20px;
+  }
+  .context-bg {
+    text-align: center;
+    margin: 0px;
+    min-height: 180px;
+    min-height: 200px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .body-bg {
+    flex-direction: column;
+    width: 100%;
+  }
+  .items-bg {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .ad-box {
+    width: 33%;
+    margin-right: 20px;
+  }
+}

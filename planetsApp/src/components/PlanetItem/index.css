@@ -6,6 +6,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  padding: 30px;
 }
 .planets-heading {
   color: #05acff;
@@ -13,8 +15,9 @@
   font-weight: 500;
 }
 .planet-img {
-  width: 380px;
-  height: 220px;
+  width: 40vw;
+  max-width: 480px;
+  min-width: 260px;
   margin-bottom: 30px;
 }
 .name {
@@ -28,5 +31,10 @@
   font-size: 16px;
   font-weight: 300;
   text-align: center;
-  max-width: 900px;
+  max-width: 90%;
+}
+@media screen and (max-width: 768px) {
+  .planet-bg {
+    padding: 10px;
+  }
 }

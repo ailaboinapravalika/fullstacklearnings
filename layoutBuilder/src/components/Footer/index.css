@@ -1,0 +1,17 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.footer-bg {
+  background-color: #cbd5e1;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.title-footer {
+  color: #475569;
+  font-size: 34px;
+  font-weight: 600;
+  margin: 12px;
+  text-align: center;
+}

@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.navbar-bg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 120px;
+  padding-top: 20px;
+  padding-right: 120px;
+  padding-bottom: 20px;
+}
+.dark-bg {
+  background-color: #333333;
+}
+.light-bg {
+  background-color: #ffffff;
+}
+.logo-img {
+  width: 46ppx;
+  height: 46px;
+}
+.nav-menu-list {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  justify-content: space-between;
+  padding-left: 0px;
+}
+.option {
+  font-size: 18px;
+  font-weight: 400;
+  list-style: none;
+}
+.theme-logo {
+  width: 46ppx;
+  height: 46px;
+}
+.theme-btn {
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+.light {
+  color: #dcdcdc;
+}
+.dark {
+  color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-bg {
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+  }
+}
+
+.link-item {
+  text-decoration: none;
+}

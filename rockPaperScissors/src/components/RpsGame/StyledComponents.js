@@ -10,7 +10,7 @@ export const MainDiv = styled.div`
   padding-right: 10px;
   padding-left: 10px;
   font-family: 'Roboto';
-  min-height: 100vh;
+  height: 100vh;
 `
 
 export const RuleBox = styled.div`

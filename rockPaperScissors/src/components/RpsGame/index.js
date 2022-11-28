@@ -8,12 +8,12 @@ import PlayGame from '../PlayGame'
 import RulesModal from '../RulesModal'
 import ResultView from '../ResultView'
 
-const choicesIds = ['ROCK', 'PAPER', 'SCISSORS']
+const choicesIds = ['ROCK', 'SCISSORS', 'PAPER']
 
 const choicesNumbers = {
   ROCK: 0,
-  PAPER: 1,
-  SCISSORS: 2,
+  SCISSORS: 1,
+  PAPER: 2,
 }
 
 class RpsGame extends Component {
@@ -36,11 +36,11 @@ class RpsGame extends Component {
       newScore = 0
       winOrLose = 'IT IS DRAW'
     } else if (tempScore === 1 || tempScore === -2) {
-      newScore = 1
-      winOrLose = 'YOU WON'
-    } else {
       newScore = -1
       winOrLose = 'YOU LOSE'
+    } else {
+      newScore = 1
+      winOrLose = 'YOU WON'
     }
     const {choicesList} = this.props
     const youChoiceItem = choicesList.filter(item => item.id === choice)

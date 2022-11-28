@@ -11,10 +11,12 @@ export const NavEle = styled.nav`
   padding-left: 30px;
   border-radius: 14px;
   border: 3px solid #ffffff;
-  width: 100%;
+  width: 68%;
   font-family: 'Bree Serif';
-  @media screen and (min-width: 768px) {
-    width: 68%;
+  flex-wrap: wrap;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    padding: 10px;
   }
 `
 
@@ -25,6 +27,12 @@ export const TitleEle = styled.h1`
   margin: 0px;
   width: 150px;
   height: 120px;
+  margin-bottom: 10px;
+  @media screen and (max-width: 768px) {
+    font-size: 26px;
+    width: 96px;
+    height: 90px;
+  }
 `
 
 export const ScoreBox = styled.div`
@@ -37,6 +45,10 @@ export const ScoreBox = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  @media screen and (max-width: 768px) {
+    width: 96px;
+    height: 90px;
+  }
 `
 
 export const ScoreTitle = styled.p`
@@ -44,10 +56,16 @@ export const ScoreTitle = styled.p`
   font-weight: 600;
   color: #223a5f;
   margin: 0px;
+  @media screen and (max-width: 768px) {
+    font-size: 22px;
+  }
 `
 
 export const Score = styled(ScoreTitle)`
   font-size: 46px;
   font-weight: 700;
   font-family: 'Roboto';
+  @media screen and (max-width: 768px) {
+    font-size: 36px;
+  }
 `

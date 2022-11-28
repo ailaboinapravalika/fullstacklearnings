@@ -14,7 +14,8 @@ export const ChoicesDiv = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 70%;
+
+  width: 100%;
   height: 400px;
 `
 
@@ -32,6 +33,10 @@ export const YourChoice = styled.p`
   font-weight: 500;
   color: #ffffff;
   margin-bottom: 20px;
+  @media screen and (max-width: 768px) {
+    font-size: 26px;
+    margin-bottom: 0px;
+  }
 `
 export const WonText = styled.p`
   font-size: 40px;
@@ -39,13 +44,19 @@ export const WonText = styled.p`
   color: #ffffff;
   font-family: 'roboto';
   margin: 20px;
+  @media screen and (max-width: 768px) {
+    font-size: 32px;
+  }
 `
 
 export const ChoiceImg = styled.img`
   width: 180px;
   height: 180px;
-  margin-bottom: 20px;
-  margin-right: 20px;
+  margin: 20px;
+  @media screen and (max-width: 768px) {
+    width: 144px;
+    height: 138px;
+  }
 `
 
 export const PlayAgainButton = styled.button`
@@ -61,4 +72,8 @@ export const PlayAgainButton = styled.button`
   cursor: pointer;
   outline: none;
   font-family: 'Bree Serif';
+  @media screen and (max-width: 768px) {
+    width: 160px;
+    font-size: 18px;
+  }
 `

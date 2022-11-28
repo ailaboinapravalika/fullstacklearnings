@@ -8,6 +8,10 @@ export const RulesDiv = styled.div`
 
   background-color: #ffffff;
   padding: 20px;
+  @media screen and (max-width: 768px) {
+    width: 90vw;
+    padding: 6px;
+  }
 `
 
 export const RulesButton = styled.button`
@@ -22,6 +26,11 @@ export const RulesButton = styled.button`
   font-family: 'Bree Serif';
   cursor: pointer;
   outline: none;
+  @media screen and (max-width: 768px) {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 8px;
+  }
 `
 
 export const RulesImgEle = styled.img`
